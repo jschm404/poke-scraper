@@ -12,3 +12,11 @@ print(html)
     #<title>Profile: Aphrodite</title>
     #...
 
+title_index = html.find("<title>")
+#title_index
+print(title_index)
+    #14
+
+start_index = title_index + len("<title>")
+print(start_index)
+    #21
